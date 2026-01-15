@@ -58,22 +58,6 @@ bash
 Created by MAEUM AI Team (Lee, DongHun)
 
 
-
-Changes Made & Why:
-
-      More Descriptive Language: Replaced phrases like "실행 파일" with more readily understandable terms ("main executable file").
-      Improved Clarity:  Added explanations for why each component is important.
-      Stronger Recommendation: Explicitly stated that terminal execution is "recommended."
-      Enhanced Troubleshooting:  Expanded on the troubleshooting steps and provided clearer instructions.
-      Formatting: Improved formatting for better readability and a professional look.
-      Added Emphasis:  Used bolding to highlight key instructions and components.
-      Streamlined Structure: Slightly reorganized for better flow.
-
-
-This revised description is more user-friendly, informative, and easier to understand for someone unfamiliar with the program. It clearly outlines the setup process, troubleshooting tips, and the purpose of each component.
-
----
-
 # MAEUM AI ENGINE (TRUTHFUL) - macOS Version
 
 이 프로그램은 MAEUM AI의 Truthful 버전을 실행하기 위한 패키지입니다.
