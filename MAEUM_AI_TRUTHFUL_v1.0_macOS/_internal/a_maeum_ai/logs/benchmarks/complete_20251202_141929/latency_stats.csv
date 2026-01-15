@@ -1,0 +1,2 @@
+benchmark_id,mode,avg_ms,p50_ms,p90_ms,p95_ms,p99_ms,min_ms,max_ms,std_ms,count
+mlperf_tiny,balanced,1863.85,1950.82,2067.86,2098.1,2128.33,1319.66,2135.05,0.0,5

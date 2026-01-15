@@ -1,0 +1,2 @@
+benchmark_id,mode,perf_per_watt,latency_per_watt,tokens_per_second,tokens_per_watt
+coqa,standard,0.0005780441287393436,1729911.9971000177,,

@@ -1,0 +1,2 @@
+benchmark_id,mode,accuracy,f1,em,precision,recall,extra
+coqa,standard,1.0,0.09602638002974341,1.0,,,"{""description"": ""Simple CoQA-style F1/EM over small Korean/English samples."", ""num_turns"": 4}"

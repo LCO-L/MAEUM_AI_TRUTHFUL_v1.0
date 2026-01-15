@@ -1,0 +1,2 @@
+benchmark_id,benchmark_name,category,avg_latency_ms,avg_accuracy,avg_power_w,mode_count
+coqa,CoQA,conversation,8463.41,1.0,204.4,1

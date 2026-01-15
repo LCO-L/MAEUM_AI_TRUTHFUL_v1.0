@@ -1,0 +1,77 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Fix Git LFS and Push",
+			"type": "shell",
+			"command": "git lfs install && git rm --cached -r . && git add . && git commit --amend --no-edit && git push -u origin HEAD --force",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Migrate to Git LFS and Push",
+			"type": "shell",
+			"command": "git lfs migrate import --everything --include=\"*.gguf,libtorch_cpu.dylib,*.bin,*.dylib,*.so,*.zip,koboldcpp-mac-arm64,MaeumAI\" && git push -u origin main --force",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Find Large Files",
+			"type": "shell",
+			"command": "find . -type f -size +1G -exec ls -lh {} \\;",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Remove Zip from Git History and Push",
+			"type": "shell",
+			"command": "git rm --cached MAEUM_AI_TRUTHFUL_v1.0_macOS.zip && git commit --amend --no-edit && git push -u origin main --force",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Check Large Files in Folder",
+			"type": "shell",
+			"command": "find \"MAEUM_AI_TRUTHFUL_v1.0_macOS\" -type f -size +100M -exec ls -lh {} \\;",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Check Remaining Large Files",
+			"type": "shell",
+			"command": "find . -type f -size +100M -exec ls -lh {} \\;",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Push All Files to GitHub",
+			"type": "shell",
+			"command": "git add . && git commit -m \"Upload MAEUM_AI_TRUTHFUL_v1.0_macOS files\" && git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Check Git Status and Remote",
+			"type": "shell",
+			"command": "git remote -v && git status",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Ensure Remote and Push",
+			"type": "shell",
+			"command": "git remote set-url origin https://github.com/LCO-L/MAEUM_AI_TRUTHFUL_v1.0.git || git remote add origin https://github.com/LCO-L/MAEUM_AI_TRUTHFUL_v1.0.git && git add . && git commit -m \"Upload files to GitHub\" && git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

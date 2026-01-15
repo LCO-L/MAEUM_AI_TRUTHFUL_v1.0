@@ -1,0 +1,2 @@
+mode,avg_latency_ms,avg_accuracy,avg_power_w,benchmark_count
+balanced,1990.46,0.775,163.01,2

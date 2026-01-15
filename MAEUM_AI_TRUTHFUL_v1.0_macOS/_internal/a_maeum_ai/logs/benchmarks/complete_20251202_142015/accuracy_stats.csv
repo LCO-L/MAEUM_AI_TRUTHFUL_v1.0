@@ -1,0 +1,3 @@
+benchmark_id,mode,accuracy,f1,em,precision,recall,extra
+mlperf_tiny,balanced,0.8,0.018987736489496393,0.8,,,"{""num_samples"": 5, ""dataset_status"": ""builtin_samples"", ""dataset_name"": """"}"
+aix,balanced,0.75,0.018077601410934743,0.75,,,"{""num_samples"": 4, ""dataset_status"": ""builtin_samples"", ""dataset_name"": """"}"

@@ -1,0 +1,8 @@
+*.gguf filter=lfs diff=lfs merge=lfs -text
+libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+koboldcpp-mac-arm64 filter=lfs diff=lfs merge=lfs -text
+MaeumAI filter=lfs diff=lfs merge=lfs -text

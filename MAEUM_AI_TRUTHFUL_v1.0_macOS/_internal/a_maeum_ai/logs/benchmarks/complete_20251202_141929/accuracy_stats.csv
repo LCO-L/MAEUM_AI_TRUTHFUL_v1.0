@@ -1,0 +1,2 @@
+benchmark_id,mode,accuracy,f1,em,precision,recall,extra
+mlperf_tiny,balanced,0.8,0.014089406630082476,0.8,,,"{""num_samples"": 5, ""dataset_status"": ""builtin_samples"", ""dataset_name"": """"}"

@@ -1,0 +1,5 @@
+mode,avg_latency_ms,avg_accuracy,avg_power_w,benchmark_count
+auto,1697.2,0.6006,187.55,17
+balanced,1688.51,0.5931,188.89,17
+fast,1671.27,0.6012,188.34,17
+quality,1670.18,0.6081,188.24,17

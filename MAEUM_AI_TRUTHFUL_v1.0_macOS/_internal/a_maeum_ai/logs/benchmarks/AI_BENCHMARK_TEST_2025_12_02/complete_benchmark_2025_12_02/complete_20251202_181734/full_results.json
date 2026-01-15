@@ -1,0 +1,138 @@
+{
+  "generated_at": "2025-12-02T18:18:10.335208",
+  "total_benchmarks": 1,
+  "modes": [
+    "standard"
+  ],
+  "benchmark_ids": [
+    "coqa"
+  ],
+  "system_info": {
+    "os_system": "Windows",
+    "os_release": "10",
+    "os_version": "10.0.26100",
+    "hostname": "DESKTOP-0K2OI03",
+    "python_version": "3.10.10",
+    "python_implementation": "CPython",
+    "cpu_name": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "cpu_cores": 8,
+    "cpu_threads": 16,
+    "cpu_freq_mhz": 4700.0,
+    "memory_total_gb": 31.15,
+    "memory_available_gb": 18.8,
+    "gpu_name": "NVIDIA GeForce RTX 5080",
+    "gpu_count": 1,
+    "gpu_memory_total_mb": 16303.0,
+    "gpu_driver_version": "581.08",
+    "cuda_version": "12.8",
+    "maeum_version": "",
+    "model_name": "",
+    "model_variant": "",
+    "quantization": ""
+  },
+  "results": [
+    {
+      "benchmark_id": "coqa",
+      "benchmark_name": "CoQA",
+      "category": "conversation",
+      "mode": "standard",
+      "timestamp": "20251202_181734",
+      "duration_s": 34.4560866355896,
+      "num_samples": 4,
+      "success_count": 4,
+      "error_count": 0,
+      "latency": {
+        "avg_ms": 8463.410825061146,
+        "p50_ms": 5081.349350046366,
+        "p90_ms": 18720.78008998651,
+        "p95_ms": 20584.350424482254,
+        "p99_ms": 22447.920758977994,
+        "min_ms": 828.8971001747996,
+        "max_ms": 22862.047499977052,
+        "std_ms": 0.0,
+        "count": 4
+      },
+      "power": {
+        "power_avg_w": 204.39891585760515,
+        "power_max_w": 225.761,
+        "power_min_w": null,
+        "gpu_util_avg": 68.3883495145631,
+        "gpu_util_max": null,
+        "gpu_mem_avg_mb": null,
+        "gpu_mem_peak_mb": 5289.81640625,
+        "gpu_temp_avg_c": null,
+        "gpu_temp_max_c": 55.0,
+        "cpu_util_avg": 9.423948220064718,
+        "cpu_util_max": null,
+        "cpu_mem_avg_mb": null,
+        "cpu_mem_peak_mb": 13047.7890625
+      },
+      "accuracy": {
+        "accuracy": 1.0,
+        "f1": 0.09602638002974341,
+        "em": 1.0,
+        "precision": null,
+        "recall": null,
+        "extra": {
+          "description": "Simple CoQA-style F1/EM over small Korean/English samples.",
+          "num_turns": 4
+        }
+      },
+      "efficiency": {
+        "perf_per_watt": 0.0005780441287393436,
+        "latency_per_watt": 1729911.9971000177,
+        "tokens_per_second": null,
+        "tokens_per_watt": null
+      },
+      "config": {
+        "suite_name": "conversation",
+        "benchmark_name": "coqa",
+        "task_name": "CoQA",
+        "concurrency": 1,
+        "num_requests": 50,
+        "duration_s": null,
+        "host": "localhost",
+        "port": 12345,
+        "endpoint": "/generate/simple",
+        "mode": "standard",
+        "max_tokens": 131072,
+        "temperature": 0.7,
+        "model_name": null,
+        "model_variant": null,
+        "quantization": null,
+        "compression_techniques": null,
+        "context_window": null,
+        "run_id": "10416a08-738b-45c7-89ef-44595446481f"
+      },
+      "system_info": {
+        "os_system": "Windows",
+        "os_release": "10",
+        "os_version": "10.0.26100",
+        "hostname": "DESKTOP-0K2OI03",
+        "python_version": "3.10.10",
+        "python_implementation": "CPython",
+        "cpu_name": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+        "cpu_cores": 8,
+        "cpu_threads": 16,
+        "cpu_freq_mhz": 4700.0,
+        "memory_total_gb": 31.15,
+        "memory_available_gb": 18.8,
+        "gpu_name": "NVIDIA GeForce RTX 5080",
+        "gpu_count": 1,
+        "gpu_memory_total_mb": 16303.0,
+        "gpu_driver_version": "581.08",
+        "cuda_version": "12.8",
+        "maeum_version": "",
+        "model_name": "",
+        "model_variant": "",
+        "quantization": ""
+      },
+      "model_info": {},
+      "notes": {
+        "benchmark_type": "coqa_simple",
+        "description": "Small CoQA-style conversational QA benchmark."
+      },
+      "raw_latencies": []
+    }
+  ]
+}

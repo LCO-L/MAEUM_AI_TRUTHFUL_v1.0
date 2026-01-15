@@ -1,0 +1,2 @@
+benchmark_id,mode,avg_ms,p50_ms,p90_ms,p95_ms,p99_ms,min_ms,max_ms,std_ms,count
+coqa,standard,8463.41,5081.35,18720.78,20584.35,22447.92,828.9,22862.05,0.0,4

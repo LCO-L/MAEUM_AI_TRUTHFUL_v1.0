@@ -1,0 +1,2 @@
+benchmark_id,benchmark_name,category,avg_latency_ms,avg_accuracy,avg_power_w,mode_count
+mlperf_tiny,MLPerf Tiny,core_5,1863.85,0.8,165.02,1

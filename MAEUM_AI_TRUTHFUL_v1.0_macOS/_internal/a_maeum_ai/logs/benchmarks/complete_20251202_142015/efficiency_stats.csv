@@ -1,0 +1,3 @@
+benchmark_id,mode,perf_per_watt,latency_per_watt,tokens_per_second,tokens_per_watt
+mlperf_tiny,balanced,0.0031736094938785023,315067.5861059199,,
+aix,balanced,0.0029970879930713615,333642.57016009267,,
